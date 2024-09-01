@@ -1,33 +1,68 @@
-# 📊 Projetos de Data Analytics
+# 🚗 Ultracar - Teste Técnico
 
-Bem-vindo ao repositório dos meus projetos de Data Analytics! Aqui estão reunidos os projetos que desenvolvi para aprender e aperfeiçoar minhas habilidades em análise de dados. Cada projeto aborda um aspecto diferente do Data Analytics, utilizando diversas ferramentas e técnicas para extrair insights valiosos e contribuir para a tomada de decisões estratégicas.
+Este teste foi projetado para avaliar minhas habilidades em Banco de Dados, Python e Power BI. Todos os arquivos necessários estão na pasta `Data`. 🍀
 
-## 🗂️ Listagem de Projetos
+## 1. Banco de Dados 🗄️
 
-Aqui estão os projetos que fazem parte deste repositório:
+Conecte-se ao banco de dados utilizando o arquivo fornecido e realize as seguintes atividades:
 
-- [💰 Dashboard Financeiro: Análise de Indicadores Financeiros](#)
-- [📈 Dashboard Analítico de Vendas](#)
-- [📊 Dashboard de Vendas, Custo, Margem de Lucro e KPI](#)
-- [🎯 Dashboard de Campanhas de Marketing](#)
-- [📊 Dashboard Comercial](#)
-- [👥 Dashboard de Recursos Humanos](#)
-- [🚚 Dashboard de Logística](#)
-- [📊 Dashboard Contábil](#)
+### 1.1 Verificação de Orçamentos e Ordens de Serviço 🛠️
 
-## 🛠️ Tecnologias Utilizadas
+**Tarefas:**
+- Identificar os orçamentos onde o valor total não corresponde ao especificado na ordem de serviço. Calcule a diferença entre os valores.
+- Identificar os orçamentos que não possuem uma ordem de serviço associada.
+- Determinar o valor médio dos orçamentos dos clientes classificados como VIP.
+- Localizar os veículos que possuem caracteres especiais em suas placas.
+- Identificar o produto que registrou o maior número de saídas.
+- Identificar os orçamentos com o maior e o menor valor de venda, incluindo a região do cliente (Estado e Cidade).
+- Identificar o fornecedor que apresenta a maior recorrência de vendas.
+- Deletar os registros dos clientes com `id_cliente` 14 e 10.
 
-Para desenvolver esses projetos, utilizei as seguintes tecnologias:
+**Entrega:** Forneça o script SQL utilizado.
 
-- **Microsoft Power BI**: Ferramenta principal para a criação dos dashboards, possibilitando visualizações interativas e ricas em detalhes.
-- **Python**: Utilizado para manipulação de dados, automação de processos e análises mais profundas.
-- **R**: Aplicado em análises estatísticas avançadas e criação de modelos preditivos.
-- **Microsoft Excel**: Utilizado para organização inicial dos dados e análises básicas, além de suporte em processos de ETL.
+## 2. Python 🐍
 
-## 🔍 Conclusão
+Utilize Python para conectar-se ao banco de dados PostgreSQL e realizar os ajustes necessários nos dados.
 
-Sou uma pessoa apaixonada por dados e acredito no poder que a análise de dados tem para transformar informações em insights valiosos. Cada um desses projetos representa um passo na minha jornada para me tornar um especialista em Data Analytics, e estou sempre buscando aprender mais e aplicar novas técnicas e tecnologias.
+### 2.1 Conexão ao Banco de Dados 🔗
 
----
+- **Tarefa:** Utilize Python para conectar-se ao banco de dados PostgreSQL.
 
-Obrigado por visitar meu repositório! Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato. 🚀
+### 2.2 Ajustes de Dados 🔧
+
+Execute as seguintes correções e padronizações nos dados:
+
+- Remova erros nos registros.
+- Padronize os campos de telefone, CPF/CNPJ, nomes e placas de veículos.
+
+**Exemplos:**
+- Padronização do campo de telefone.
+- Formatação dos campos CPF/CNPJ.
+- Padronização de nomes e placas de veículos.
+
+### 2.3 Extração de Dados 📊
+
+- **Tarefa:** Após ajustar os dados, extraia todas as tabelas tratadas em formato `.xlsx`.
+- **Entrega:** Forneça os arquivos `.xlsx` juntamente com os scripts Python utilizados para os ajustes e a conexão ao banco de dados.
+
+## 3. Power BI 📈
+
+Utilize os dados fornecidos para criar relatórios e visualizações no Power BI.
+
+### 3.1 Relatório de Orçamento 📋
+
+- **Tarefa:** Crie um relatório de orçamento utilizando o Power BI, com base nos dados do backup fornecido.
+
+### 3.2 Mapa de Calor Geográfico 🌍
+
+- **Tarefa:** Desenvolva um mapa de calor que mostre a distribuição dos orçamentos por estado.
+
+### 3.3 Relatório Adicional 📝
+
+- **Tarefa:** Com base nas informações do banco de dados, crie um relatório adicional no Power BI que ofereça insights relevantes. Utilize sua criatividade para destacar pontos importantes.
+
+## 4. Conclusão 🎯
+
+Este teste foi uma excelente oportunidade para demonstrar minhas habilidades técnicas em **Python**, **SQL** e **Power BI**. Além disso, exigiu o uso de importantes habilidades comportamentais, como **resiliência**, **força de vontade**, **autogestão** e **criatividade**.
+
+Foi uma experiência desafiadora, mas muito enriquecedora. Estou confiante de que pude mostrar todo o meu potencial! 🚀
